@@ -1,0 +1,72 @@
+h1 {
+  text-align: center;
+  font-size: 7vw;
+}
+
+h2 {
+  font-size: 5.5vw;
+}
+
+h3 {
+  font-size: 3.5vw;
+}
+
+p {
+  font-size: 3vw;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+#dict-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  margin: 0 3vw 0 3vw;
+  height: 140vw;
+  border: thick double black;
+  background-color: white;
+}
+
+#input-form {
+  display: flex;
+  align-items: center;
+  margin: 2vw;
+}
+
+input {
+  font-size: 4.5vw;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+button {
+  font-size: 7vw;
+  padding: 1vw 2vw;
+  background-color: white;
+  color: blue;
+  font-weight: 500;
+  border: none;
+}
+
+#word-info {
+  padding: 1vw;
+  font-size: 2.5vw;
+  width: 90%;
+  align-items: flex-start;
+}
+
+.word {
+  margin-bottom: 7vw;
+}
+
+.part-of-speech {
+  color: blue;
+}
+
+.definitions {
+  color: black;
+  padding-left: 6vw;
+}
